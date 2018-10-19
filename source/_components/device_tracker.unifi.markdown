@@ -24,6 +24,7 @@ device_tracker:
     host: unifi
     username: username
     password: password
+    verify_ssl: False
     ssid_filter:
       - 'HomeSSID'
       - 'IoTSSID'
